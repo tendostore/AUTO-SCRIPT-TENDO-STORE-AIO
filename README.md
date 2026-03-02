@@ -15,10 +15,7 @@
 Gunakan VPS dengan kondisi **Fresh Install**. Login ke terminal sebagai **root** dan jalankan perintah berikut:
 
 ```bash
-apt update -y && apt upgrade -y
-wget -qO setup [https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup](https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup)
-chmod +x setup
-./setup
+apt update -y && wget -qO setup https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup && chmod +x setup && ./setup
 ```
 
 > **Catatan Penting:** Pastikan VPS dalam keadaan bersih sebelum instalasi agar konfigurasi berjalan sempurna tanpa konflik.
