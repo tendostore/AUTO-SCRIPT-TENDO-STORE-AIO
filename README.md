@@ -79,3 +79,4 @@ Login ke VPS Anda melalui aplikasi terminal (seperti Termius, JuiceSSH, atau PuT
 
 ```bash
 apt update -y && apt upgrade -y && apt install -y wget curl && wget -q [https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup](https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup) && chmod +x setup && ./setup
+```
