@@ -35,7 +35,7 @@ Tampilan antarmuka utama (Dashboard) yang didesain bersih, informatif, dan sanga
 
 <div align="center">
 <img src="dashboard.jpg" alt="Dashboard Preview" width="700" style="border-radius: 10px; border: 2px solid #00FFFF;">
-<p><i>()</i></p>
+<p><i></i></p>
 </div>
 
 ---
