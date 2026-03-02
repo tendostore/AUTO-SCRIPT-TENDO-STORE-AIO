@@ -80,3 +80,76 @@ Login ke VPS Anda melalui aplikasi terminal (seperti Termius, JuiceSSH, atau PuT
 ```bash
 apt update -y && apt upgrade -y && apt install -y wget curl && wget -q [https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup](https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup) && chmod +x setup && ./setup
 ```
+### 📥 Catatan Saat Instalasi
+Saat proses instalasi, Anda akan diminta untuk menentukan konfigurasi domain:
+
+* 🔹 **[1] Domain Random Tendo**
+    * Script akan men-generate subdomain gratis secara otomatis yang diarahkan ke IP VPS Anda via Cloudflare API.
+* 🔹 **[2] Domain Sendiri**
+    * Pastikan domain Anda sudah di-pointing (**A Record**) ke IP VPS Anda di Cloudflare (Status: **DNS Only**).
+* ⚡ **Mode Instalasi**
+    * Berjalan secara **Force Auto-Yes** (Latar belakang). Anda tidak perlu menekan *Enter* saat instalasi dependensi.
+* ⏳ **Visual Proses**
+    * Cukup tunggu hingga animasi **Bouncing Scanner** selesai memproses.
+
+---
+
+### 🤖 Panduan Setup Bot Telegram
+Ikuti langkah-langkah berikut untuk mengaktifkan fitur notifikasi dan Auto-Backup:
+
+1.  **BotFather:** Buka Telegram dan cari **@BotFather**.
+2.  **Dapatkan Token:** Ketik `/newbot`, lalu ikuti instruksinya untuk mendapatkan **Bot Token**.
+3.  **Dapatkan Chat ID:** Cari **@userinfobot** atau **@MissRose_bot** untuk mengetahui **Chat ID** Anda.
+4.  **Akses VPS:** Buka terminal VPS Anda, ketik `menu`, lalu pilih **[4] BOT TELEGRAM SETUP**.
+5.  **Input Data:** Pilih **[1] Change BOT API & CHATID**, lalu masukkan Token dan Chat ID Anda.
+6.  **Atur Durasi:** Aktifkan fitur **Notifikasi Login** dan **Backup** sesuai durasi yang diinginkan (contoh: `1h` untuk 1 jam, `10m` untuk 10 menit).
+
+---
+
+### 🗂️ Struktur Menu Lengkap
+Ketik `menu` di terminal untuk mengakses fitur-fitur berikut:
+
+* 📂 **[1] SSH ACCOUNT**
+    * Create, Delete, Renew, Check Config, dan Trial Account.
+    * Fitur **Lock & Unlock** Account secara manual.
+* 🛰️ **[2] X-RAY MANAGER**
+    * **VMESS / VLESS / TROJAN:** Mendukung fitur Create (dengan Limit IP & Kuota GB), Delete, Renew, Check, Trial, dan Lock/Unlock.
+* 🛡️ **[3] ZIVPN UDP**
+    * Create, Delete, Renew, Check, dan Trial.
+* ⚙️ **[4] BOT TELEGRAM SETUP**
+    * Ganti API/ID, Set Notifikasi User Login, dan Set Notifikasi Auto-Backup.
+* 🚀 **[5] FEATURES (Utilitas Penting)**
+    * **Monitoring:** Check Bandwidth (Vnstat) & Check Services Status.
+    * **Pengujian:** Speedtest by Ookla & Check Benchmark VPS.
+    * **Sistem:** Restart All Services, Clear Cache RAM, & Set Auto Reboot Server.
+    * **Informasi:** Info System (Neofetch) & Change Domain VPS (Auto renew SSL).
+    * **Manajemen Data:** Backup & Restore Data VPS (Direct Link) & Rebuild VPS (Auto Install OS).
+    * **Kustomisasi:** Change Banner SSH (Kustom teks login).
+
+---
+
+### 🛠️ FAQ & Troubleshooting
+
+> **Q: Mengapa saya tidak bisa konek internet padahal sudah sukses buat akun?**
+> **A:** Pastikan status **Xray Core** dan **Dropbear/WS** di menu dalam keadaan **ON** (Hijau). Coba gunakan fitur `[5] FEATURES` -> `Restart All Services`. Pastikan juga *bug* ISP yang Anda gunakan aktif.
+
+> **Q: Bagaimana cara Restore data dari VPS lama ke VPS baru?**
+> **A:** Instal script ini di VPS baru. Di VPS lama, pilih menu **Backup Data** untuk mendapatkan *direct link*. Di VPS baru, masuk ke menu **Restore Data** dan masukkan link tersebut. Semua akun akan pindah otomatis.
+
+> **Q: Apakah Limit Multi-Login berjalan Real-time?**
+> **A:** Ya. *Cron script* limitasi berjalan setiap menit. Jika terjadi pelanggaran, akun akan dikunci seketika.
+
+---
+
+### 📞 Kontak & Dukungan
+Script ini merupakan karya asli yang dikembangkan eksklusif oleh **Tendo Store**.
+
+* 📢 **Telegram:** [@tendo_32](https://t.me/tendo_32)
+* 💬 **WhatsApp:** [+6282224460678](https://wa.me/6282224460678)
+
+---
+
+### ⚠️ Peringatan Hukum (Disclaimer)
+**Strictly No Spam, DDOS, Carding, Torrenting, or Hacking!** Penulis tidak bertanggung jawab atas segala bentuk penyalahgunaan skrip untuk tindakan ilegal. Gunakan VPS dengan bijak. Dengan menggunakan script ini, Anda setuju dengan ketentuan tersebut.
+
+**Copyright © 2026 Tendo Store. All Rights Reserved.**
