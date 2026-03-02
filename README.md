@@ -26,8 +26,7 @@ chmod +x setup
 ---
 
 ### 📝 Deskripsi Proyek
-**Tendo Store Auto Script (AIO)** adalah solusi instalasi otomatis VPN server versi Free yang dirancang untuk performa tinggi dan kemudahan pengelolaan bagi siapa saja. Script ini sangat ringan, minim bug, dan memiliki antarmuka UI Terminal yang rapi. Sesuai komitmen pengembang, tidak ada bagian script yang dihilangkan atau terpotong sedikitpun dalam setiap pengiriman.
-
+**Tendo Store Auto Script (AIO)** adalah solusi instalasi otomatis VPN server versi Free yang dirancang untuk performa tinggi dan kemudahan pengelolaan bagi siapa saja. Script ini sangat ringan, minim bug, dan memiliki antarmuka UI Terminal yang rapi.
 ---
 
 ### 🖥️ Dashboard Preview
