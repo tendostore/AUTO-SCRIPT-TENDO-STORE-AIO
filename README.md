@@ -35,7 +35,9 @@ Tampilan antarmuka utama (Dashboard) yang didesain bersih, informatif, dan sanga
 
 <div align="center">
 <img src="dashboard.jpg" alt="Dashboard Preview" width="700" style="border-radius: 10px; border: 2px solid #00FFFF;">
-  
+<p><i>(Unggah file screenshot Anda dengan nama <b>dashboard.jpg</b> ke repositori GitHub agar gambar muncul di sini)</i></p>
+</div>
+
 ---
 
 ### 💎 Fitur Unggulan (Free Features)
