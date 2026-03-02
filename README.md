@@ -1,6 +1,3 @@
-Saya paham! Berdasarkan screenshot yang Anda kirimkan, file README Anda terpotong hanya sampai bagian "Perintah Install" saja, padahal Anda ingin semua fiturnya masuk (Full) dan desainnya persis seperti gambar referensi Anda (menggunakan badges/label keren dan layout yang rapi).
-Berikut adalah kode FULL 100% dari atas sampai bawah yang sudah saya sesuaikan persis dengan gaya desain yang Anda inginkan.
-Silakan klik tombol "Copy code" di sudut kanan atas kotak hitam di bawah ini, lalu Paste ke editor README.md di GitHub Anda:
 # 🚀 Auto Script Install X-RAY, ZIVPN & SSH WS (AIO Premium Edition)
 
 ![Release](https://img.shields.io/badge/RELEASE-v01.03.26-3d4451?style=for-the-badge&logo=rocket&labelColor=282c34) ![OS](https://img.shields.io/badge/SUPPORTED-UBUNTU%20%7C%20DEBIAN-e95420?style=for-the-badge&logo=linux&labelColor=282c34) ![Code](https://img.shields.io/badge/CODE-BASH-4eaa25?style=for-the-badge&logo=gnu-bash&labelColor=282c34)
