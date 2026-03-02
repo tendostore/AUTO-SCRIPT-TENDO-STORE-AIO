@@ -12,3 +12,4 @@ Salin dan jalankan perintah di bawah ini pada terminal VPS Anda (Wajib run sebag
 
 ```bash
 apt update -y && apt upgrade -y && wget -qO setup [https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup](https://raw.githubusercontent.com/tendostore/AUTO-SCRIPT-TENDO-STORE-AIO/main/setup) && chmod +x setup && ./setup
+```
